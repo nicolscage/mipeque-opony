@@ -4,7 +4,7 @@ app = Flask(__name__)  # Crea una aplicación web
 
 @app.route('/')  # Cuando alguien visite la página principal
 def hola_mundo():
-    return "¡Cambio!"  # Esto es lo que verán
+    return "¡funciona pedazo de mrd!"  # Esto es lo que verán
 
 if __name__ == '__main__':
     app.run()  # Inicia el servidor
